@@ -1,8 +1,8 @@
 # Write your code here.
 def batch_badge_creator
   attendees =["Edsger","Ada","Charles","Alan","Grace","Linus","MatzA"]
-  puts badge messages "My name is {Ada} +=
-assignments =["Edsger","Ada","Charles","Alan","Grace","Linus","MatzA"]
+  puts badge messages "Hello, My name is {Ada} +=
+assignments =["Edsger","Ada","Charles","Alan","Grace","Linus","Matz"]
 
 
 Write badge creator
