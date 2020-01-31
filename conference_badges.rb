@@ -27,4 +27,4 @@ def printer(attendees)
     do |person|
       puts person
     end
-  end
+  
