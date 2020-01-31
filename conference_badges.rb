@@ -23,7 +23,7 @@ def printer(attendees)
   .map do |person| 
     puts person
   end
-    assign_room(attendees).map
+    assign_rooms(attendees).map
     do |person|
       puts person
     end
