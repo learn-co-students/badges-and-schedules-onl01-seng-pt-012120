@@ -14,7 +14,6 @@ You're hosting a conference and need to print badges for the speakers. Each badg
 ```bash
 badge_maker("Arel")
 => "Hello, my name is Arel."
-```
 
 The list of speakers for your conference has been finalized. Your conference speakers are: Edsger, Ada, Charles, Alan, Grace, Linus, and Matz. How you scored these luminaries is beyond me, but way to go! Now you'll want to get their badges printed.
 
