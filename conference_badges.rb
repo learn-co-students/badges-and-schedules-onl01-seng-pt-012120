@@ -3,10 +3,13 @@ def badge_maker(name)
   "Hello, my name is #{name}."
 end
 
-#def batch_badge_creator(name)
- 
-# 3 name =["Edsger","Ada","Charles","Alan","Grace","Linus","MatzA"]
-#  end
+def batch_badge_creator(speakers)
+ badges = [] 
+ speakers.each  do |name|
+ badges << "Hello, my name is #{name}."
+ end
+ badges
+  end
  #5,6,7]
 #Puts " Hello, {name}+ You'll  be assigned to room{ room}+= 
 #end
