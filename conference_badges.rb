@@ -14,8 +14,16 @@ def batch_badge_creator(speakers)
  def assign_rooms(messages)
 
  messages.each_with_index.map do |name, index |
- "Hello, #{name}! You'll be assigned to #{index+1}!"
+ "Hello, #{name}! You'll be assigned to room #{index+1}!"
 end
 end
 
-
+def printer(attendees)
+  batch_badge_creator(attendees)
+  .map do |person| 
+    puts person
+    assign_room(attendees).map
+    do |person|
+      puts person
+    end
+  end
