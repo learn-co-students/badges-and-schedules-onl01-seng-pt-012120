@@ -10,6 +10,10 @@ def batch_badge_creator(speakers)
  end
  badges
   end
+ 
+ def_assign rooms(messagaes
+
+ messages.each_with_index each.do|message| index|  "#{index} }
  #5,6,7]
 #Puts " Hello, {name}+ You'll  be assigned to room{ room}+= 
 #end
